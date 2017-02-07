@@ -1,0 +1,155 @@
+/* CSS Reset below */
+
+* {
+  /* remove spacing */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.3em
+}
+
+body {
+  background-color: #ecf0f1;
+  color: black;
+  font-family: 'Alice', serif;
+  text-align: center;
+}
+
+h1,h2,h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2,h3,h4 {
+  padding: 10px 0px
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  color: rgba(84,84,84,.38)
+}
+
+header a {
+  color: rgba(84,84,84,.38);
+  text-decoration: none;
+}
+
+nav {
+  text-align: right;
+}
+
+#name h1 {
+  font-size: 4em;
+}
+
+a {
+  padding: 0px 8px
+}
+
+
+.first {
+  background-image: url("http://i.giphy.com/3o6Zti9NTwp5OEJHEc.gif");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 20px;
+  color: black;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.fa{
+  font-size: 1em;
+}
+
+.logo{
+  font-size: 5em;
+  padding: 10px;
+}
+
+.first {
+
+}
+
+.about {
+  background-color: #69747C;
+  margin: 10% 10% 8% 10%;
+  padding: 40px 40px;
+}
+
+.about h2 {
+  padding: 10px;
+}
+
+.skills {
+  padding-bottom: 40px;
+}
+
+
+
+.fa {
+
+}
+
+#name {
+  padding: 20% 15%;
+}
+
+#contact {
+  background-color: #69747C;
+  margin-top: 10%;
+  padding: 40px 40px;
+}
+
+#contact a {
+  color: black;
+}
+
+.experience {
+  background-color: #ecf0f1;
+  margin: 5% 10% 8% 10%;
+  text-align: left;
+}
+
+.experience i {
+  padding-top: 3px;
+}
+
+.experience h2 {
+  padding-bottom: 25px;
+
+}
+
+.experience h3 {
+  padding-top: 0px;
+}
+.experience h4 {
+  padding-top: 0px;
+  line-height: 1em;
+}
+.experience p {
+  margin-bottom: 40px;
+}
+
+#contact h3 {
+  font-size: .8em;
+}
+
+.width-80 {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.skills h2 {
+  margin-bottom: 30px;
+}
+
+
+.maps iframe {
+  pointer-events: none;
+}
